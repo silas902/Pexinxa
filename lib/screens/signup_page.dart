@@ -20,15 +20,19 @@ class SignupPage extends StatelessWidget {
           SingleChildScrollView(
             reverse: true,
             child: Column(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Image.asset(
-                  "assets/images/marca-horizontal.png",
-                  height: 80,
-                ),
                 Container(
-                  height: deviceInfo.size.height * 0.10,
+                  padding: EdgeInsets.only(
+                      left: 45,
+                      right: 45,
+                      bottom: deviceInfo.size.height * 0.10),
+                  alignment: Alignment.center,
+                  child: Image.asset(
+                    "assets/images/marca-horizontal.png",
+                    height: 150,
+                  ),
                 ),
                 const Padding(
                   padding: EdgeInsets.all(8.0),

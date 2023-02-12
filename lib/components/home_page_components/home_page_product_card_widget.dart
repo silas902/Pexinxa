@@ -44,11 +44,11 @@ class HomePageProductCardWidget extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Padding(
-                    padding: const EdgeInsets.only(top: 15, left: 10),
+                    padding: const EdgeInsets.only(top: 13, left: 10),
                     child: SizedBox(
                       //color: Colors.grey,
-                      width: deviceInfo.size.width * 0.60,
-                      height: 35,
+                      width: deviceInfo.size.width * 0.65,
+                      height: 38,
                       child: SingleChildScrollView(
                         child: Text(
                           product.nameProduct,

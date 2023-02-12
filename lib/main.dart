@@ -41,6 +41,7 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(create: (context) => ClientDataController()),
       ],
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         theme: ThemeData(
           useMaterial3: true,
           colorSchemeSeed: Colors.purple

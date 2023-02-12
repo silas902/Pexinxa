@@ -46,7 +46,7 @@ class _ProductDescriptionDetailsWidgetState extends State<ProductDescriptionDeta
               child: Image.network(widget.product.imagen),
             ),
             SizedBox(
-              height: 70,
+             
               width: deviceInfo.size.width,
               child: Padding(
                 padding: const EdgeInsets.all(15),
